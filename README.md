@@ -1,5 +1,4 @@
 ## YOLO_tensorflow
-
 Tensorflow implementation of [YOLO](https://arxiv.org/pdf/1506.02640.pdf), including training and test phase.
 
 ### Installation
@@ -28,7 +27,7 @@ weight file and put it in `data/weight`
 	    
 6  效果显示： 运行已经训练好的模型文件（第2步下载得到，并且放到相应的文件夹下），测试结果如下
             
-	    ![Image text](https://github.com/TowardsNorth/yolo_v1_tensorflow_guiyu/blob/master/test/000021.jpg)
+	    [Image](https://github.com/TowardsNorth/yolo_v1_tensorflow_guiyu/blob/master/test/000021.jpg)
 
 
 
