@@ -26,8 +26,10 @@ weight file and put it in `data/weight`
              其它具体的细节可以看源码注释，我对于每一个细节都做了源码注释。
 	    
 6  效果显示： 运行已经训练好的模型文件（第2步下载得到，并且放到相应的文件夹下），测试结果如下
+ 
+            [Image](https://github.com/TowardsNorth/yolo_v1_tensorflow_guiyu/blob/master/test/000021.jpg)
             
-	    [Image](https://github.com/TowardsNorth/yolo_v1_tensorflow_guiyu/blob/master/test/000021.jpg)
+	    
 
 
 
