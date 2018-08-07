@@ -28,7 +28,7 @@ weight file and put it in `data/weight`
 	    
 6  效果显示： 运行已经训练好的模型文件（第2步下载得到，并且放到相应的文件夹下），测试结果如下
             
-	    
+	    ![yolov1](yolo_v1_tensorflow_guiyu/test/yolov1.JPG)
 
 
 
