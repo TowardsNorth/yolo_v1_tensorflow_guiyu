@@ -26,7 +26,7 @@ weight file and put it in `data/weight`
              其它具体的细节可以看源码注释，我对于每一个细节都做了源码注释。
 	    
 6  效果显示： 运行已经训练好的模型文件（第2步下载得到，并且放到相应的文件夹下），测试结果如下： 
- ![](test/yolov1.jpg)
+ ![](test/yolov1.JPG)
             
 	    
 
