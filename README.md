@@ -37,7 +37,7 @@ weight file and put it in `data/weight`
 
  
 
-预训练完之后，为了更好的利用细粒度的特征。将input size从(224*224)调整到(448*448)，进行检测的任务。检测的网络如上图所示，只是在分类的前20个预训练好的卷积层后面加上4个卷积层和2个全连接层，采用随机初始化的形式对这新加的4个卷积层和2个全连接层进行初始化，然后在整个检测模型上用检测数据进行fine-tuning。论文中是这样描述的（We then convert the model to perform detection. Ren etal. show that adding both convolutional and connected layers to pretrained networks can improve performance [28]. Following their example, we add four convolutional layers and two fully connected layers with randomly initialized weights. Detection often requires fine-grained visual information so we increase the input resolution of the network
+预训练完之后，为了更好的利用细粒度的特征。将input size从(224* 224)调整到(448*448)，进行检测的任务。检测的网络如上图所示，只是在分类的前20个预训练好的卷积层后面加上4个卷积层和2个全连接层，采用随机初始化的形式对这新加的4个卷积层和2个全连接层进行初始化，然后在整个检测模型上用检测数据进行fine-tuning。论文中是这样描述的（We then convert the model to perform detection. Ren etal. show that adding both convolutional and connected layers to pretrained networks can improve performance [28]. Following their example, we add four convolutional layers and two fully connected layers with randomly initialized weights. Detection often requires fine-grained visual information so we increase the input resolution of the network
 from 224 × 224 to 448 × 448），训练的过程中注意label与网络的输出值一一对应即可。注意损失函数，损失函数如下：
 ![](test/4.jpg)
 
